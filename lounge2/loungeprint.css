@@ -97,3 +97,10 @@ body p a:visited { color: #333333; }
   background-position: top left;
 }
 
+p.specials{
+  color: red
+}
+
+#footer{
+  color: red
+}
