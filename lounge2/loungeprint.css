@@ -4,7 +4,7 @@ body {
   line-height: 1.4em;
   margin: 10px 40px 10px 40px;
   width: 700px;
-  background: gray;
+  background: white;
 }
 
 h1, h2 {
@@ -103,4 +103,24 @@ p.specials{
 
 #footer{
   color: red
+}
+
+#elixirs{
+  border: 200px #007e7e thin solid;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  text-align: center;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  line-height: 1em;
+  float: right;
+  width: 280px;
+}
+
+#elixirs h2 {
+  color: black;
+}
+
+#elixirs h3 {
+  color: #d12c47;
 }
