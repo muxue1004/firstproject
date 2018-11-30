@@ -7,13 +7,11 @@ body{
 }
 #subNav{
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 #subNav #subNavCon{
-    border:0px solid rgb(255,0,0);
-    width:1600px;
-    height:30px;
+    width:100%;
+    height:40px; 
     margin:0px auto;
     position: relative;
     z-index: 30;
@@ -22,8 +20,7 @@ body{
 }
 #subNav #subNavCon #subNavConLeft{
     height: 40px;
-    border:0px solid rgb(255,0,0);
-    width:900px; 
+    width:60%; 
     float:left;
     font-size:12px;
     text-align:center;
@@ -32,17 +29,17 @@ body{
 }
 #subNav #subNavCon #subNavConRight{
     height: 40px;
-    border:0px solid rgb(255,0,0);
-    width:600px;
-    float:right;    
+    width:40%;
+    float:right;
+    text-align:center;    
 }
 #subNavConLeft ul li{
-    line-height: 20px;
+    line-height: 30px;
     list-style:none;
-    width: 80px;
+    width: 55px;
     float: left;
     display: inline-block;
-    margin-left: 0px;
+    margin: 0px;
     height: 10px;
     margin: auto 0px;
     font-size: 12px;
@@ -50,29 +47,29 @@ body{
 }
 #subNavConRight ul li{
     display: inline-block;
-    margin-right: 10px;
+    margin:0;
     list-style:none;
     width: 60px;
     margin-right: 0px;
     height: 10px;
 }
 #subNavConRight ul li{
-    border:0px solid rgb(255,0,0);
     font-size:12px;
     color: #b0b0b0;
-    line-height:20px;
+    line-height:30px;
     float:right;
     display: inline-block;
     padding: 0px;
     margin: auto 0px;
 }
 #sncTxt{
-    color:rgb(255,0,0);
     font-size:14px;
     text-decoration:none;
 }
-#sncTxtOne{
-    width:170px;
+.sncTxtOne{
+    width:80px;
+    margin: auto 5px auto 0px;
+    font-size: 12px;
 }
 .sncTxtImg img{     /*图片转换为块元素*/
     display:block;
@@ -83,19 +80,17 @@ body{
     margin-top:8px;
 }
 .sncTxtfTxt{
-    /* width:90px; */
-    display: inline !important;
-    margin: auto 5px auto 0px;
+    margin: auto 5px;
     padding: 0px;
+    font-size: 14px;
+    width: 40px;
 }
 #logo{
-    border:0px solid rgb(255,0,0);
     height:115px;
     width:1450px;
     margin:auto;
 }
 .logoCon{
-    border:0px solid rgb(255,0,0);
     height:115px;
 }
 #logoImg{
@@ -112,7 +107,6 @@ body{
     position:relative;
 }
 #logoSeaIn{
-    border:2px solid rgb(255,0,0);
     height:40px;
     width:580px;
     margin-top:30px;
@@ -128,7 +122,6 @@ body{
     float:left;
 }
 #logoSeaTxt{
-    border:0px solid rgb(255,0,0);
     margin-top:5px;
     font-size:16px;
 }
@@ -138,14 +131,12 @@ body{
     margin-left:10px;
 }
 #logoCarCon{
-    border:1px solid rgb(204,204,204);
     width:200px;
     height:40px;
     margin:30px auto;
     background:rgb(239,239,239);
 }
 #logoCarConImg{
-    border:0px solid rgb(255,0,0);
     width:21px;
     height:17px;
     float:left;
@@ -153,7 +144,6 @@ body{
     margin-left:20px;
 }
 #logoCarConTxt{
-    border:0px solid rgb(255,0,0);
     width:100px;
     height:17px;
     font-size:14px;
@@ -170,18 +160,15 @@ body{
     top:25px;
 }
 #mainNav{
-    border-bottom:2px solid #DD0631;
     height:55px;    
 }
 #mainNavCen{
-    border:0px solid #ff0000;
     width:1450px;
     height:55px;
     margin:0px auto;
     position:relative;
 }
 #mainNavCenLeft{
-    border:0px solid #ff0000;
     height:55px;
     width:263px;
     float:left;
@@ -190,7 +177,6 @@ body{
     top:0px;
 }
 #mainNavCenMid{
-    border:0px solid #ff0000;
     height:55px;
     width:820px;
     position:absolute;
@@ -198,7 +184,6 @@ body{
     top:0px;
 }
 #mainNavCenRight{
-    border:0px solid #ff0000;
     height:55px;
     width:200px;
     float:right;
@@ -208,7 +193,6 @@ body{
 }
 
 .mncmTh{
-    border:0px solid #ff0000;
     font-size:22px;
     font-weight:300;/*加粗*/  
     width:95px;
@@ -217,7 +201,6 @@ body{
     float:left;
 }
 .mncmT{
-    border:0px solid rgb(255,0,0);
     font-size:22px;
     font-weight:300;
     width:85px;
@@ -226,20 +209,17 @@ body{
     float:left;
 }
 #mainOne{
-    border:0px solid rgb(255,0,0);
     width:1450px;
     margin:0px auto;
     height:584px;
 }
 #mainOneLeft{
-    border:0px solid rgb(255,0,0);
     height:584px;
     width:263px;
     float:left;
     background-color:rgb(164,0,37);
 }
 #mainOneCen{
-    border:0px solid rgb(255,0,0);
     height:574px;
     width:840px;
     float:left;
@@ -247,7 +227,6 @@ body{
     margin-top:10px;
 }
 #mainOneRight{
-    border:1px solid rgb(201,204,205);
     height:574px;
     width:314px;
     float:left;
@@ -255,7 +234,6 @@ body{
     margin-top:10px;
 }
 .mainOneLeftTxt{
-    border:0px solid rgb(0,255,0);
     width:220px;
     float:left;
     color:rgb(255,255,255);
@@ -266,7 +244,6 @@ body{
     padding-left:10px;
 }
 .mainOneLeftFlag{
-    border:0px solid rgb(0,255,0);
     width:20px;
     text-align:center;
     float:right;
@@ -281,7 +258,6 @@ body{
     height:60px;
 }
 .morTxtLeft{
-    border:0px solid rgb(255,0,0);
     font-size:24px;
     color:rgb(153,153,153);
     width:100px;
@@ -290,7 +266,6 @@ body{
     margin-left:20px;
 }
 #morTxtRight{
-    border:0px solid rgb(255,0,0);
     font-size:16px;
     color:rgb(153,153,153);
     width:70px;
@@ -302,7 +277,6 @@ body{
     height:160px;
 }
 .mortdTxt{
-    border:0px solid rgb(255,0,0);
     width:280px;
     margin:auto;
     font-size:16px;
@@ -324,13 +298,11 @@ body{
     float:left;
 }
 .flag02{
-    border:0px solid rgb(255,0,0);
     width:29px;
     height:30px;
     margin:auto;
 }
 .flag02Txt{
-    border:0px solid rgb(255,0,0);
     font-size:16px;
     color:rgb(153,153,153);
     margin-top:10px;
@@ -343,7 +315,6 @@ body{
     height:197px;
 }
 #advs1{
-    border:0px solid rgb(255,0,0);
     width:263px;
     height:197px;
     float:left;
@@ -366,7 +337,6 @@ body{
     float:left;
 }
 #loves{
-    border:0px solid rgb(255,0,0);
     width:1450px;
     height:314px;
     margin:20px auto;
@@ -376,21 +346,18 @@ body{
     height:40px;
 }
 #lovesTxt{
-    border:0px solid rgb(255,0,0);
     font-size:28px;
     line-height:40px;
     width:120px;
     float:left;
 }
 #lovesImg{
-    border:0px solid rgb(255,0,0);
     width:244px;
     height:30px;
     float:left;
     margin-top:10px;
 }
 #lovesImg1{
-    border:0px solid rgb(255,0,0);
     width:23px;
     height:33px;
     float:right;
@@ -398,7 +365,6 @@ body{
     margin-right:5px;
 }
 #lovesTxt1{
-    border:0px solid rgb(255,0,0);
     font-size:16px;
     line-height:40px;
     width:55px;
@@ -410,19 +376,16 @@ body{
     clear:both;
 }
 .loveKone{
-    border:0px solid rgb(255,0,0);
     height:270px;
     width:250px;
     float:left;
 }
 .loveKoneImg{
-    border:0px solid rgb(255,0,0);
     width:200px;
     height:180px;
     margin:auto;
 }
 .loveKoneM{
-    border:0px solid rgb(255,0,0);
     font-size:18px;
     line-height:30px;
     width:90px;
@@ -436,13 +399,11 @@ body{
     margin-top:180px;
 }
 #jdStyle{
-    border:0px solid rgb(255,0,0);
     width:1450px;
     height:560px;
     margin:auto;
 }
 #jdStyleText{
-    border:0px solid rgb(255,0,0);
     font-size:30px;
     height:52px;
     width:150px;
@@ -469,7 +430,6 @@ body{
     float:left;
 }
 #sOneCon12{
-    border:0px solid rgb(255,0,0);
     width:188px;
     height:248px;
     float:left;
@@ -480,13 +440,11 @@ body{
     height:250px;
 }
 #sOneCon3{
-    border:0px solid rgb(255,0,0);
     width:440px;
     height:250px;
     float:left;
 }
 #soc3Img{
-    border:0px solid rgb(255,0,0);
     width:343px;
     height:76px;
     margin:auto;
@@ -524,7 +482,6 @@ body{
     margin-top:6px;
     float:left;}
 .soc3txt{
-    border:0px solid rgb(255,0,0);
     font-size:16px;
     height:36px;
     line-height:36px;
@@ -550,7 +507,6 @@ body{
     float:left;
 }
 #head2{
-    border:0px solid rgb(255,0,0);
     width:820px;
     height:30px;
     margin-top:10px;
@@ -560,7 +516,6 @@ body{
     list-style:none;
 }
 #head2 ul li{
-    border:0px solid rgb(255,0,0);
     font-size:14px;
     color:rgb(102,102,102);
     line-height:30px;
@@ -641,13 +596,11 @@ body{
     background-color:rgb(219,219,219);
 }
 .one{
-    border:0px solid rgb(255,0,0);
     width:222px;
     height:250px;
     float:left;
 }
 .one1{
-    border:0px solid rgb(255,0,0);
     font-size:18px;
     font-family:宋体;
     font-weight:700;
@@ -658,7 +611,6 @@ body{
     margin-left:10px;
 }
 .one2{
-    border:0px solid rgb(255,0,0);
     font-size:13px;
     width:222px;
     height:28px;
@@ -672,7 +624,6 @@ body{
     float:left;
 }
 #two1{
-    border:0px solid rgb(255,0,0);
     width:340px;
     height:40px;
     font-size:18px;
@@ -683,7 +634,6 @@ body{
     text-align:center;
 }
 #two2{
-    border:0px solid rgb(255,0,0);
     font-size:13px;
     width:190px;
     height:60px;
@@ -691,7 +641,6 @@ body{
     margin:auto;
 }
 #two3{
-    border:0px solid rgb(255,0,0);
     width:65px;
     height:20px;
     margin-left:210px;
@@ -704,7 +653,6 @@ body{
     background-color:rgb(219,219,219);
 }
 #last21{
-    border:0px solid rgb(255,0,0);
     width:1054px;
     height:35px;
     margin:auto;
@@ -714,7 +662,6 @@ body{
     list-style:none;
 }
 .style1{
-    border:0px solid rgb(255,0,0);
     font-family:仿体;
     font-size:13px;
     color:rgb(102,102,102);
@@ -725,7 +672,6 @@ body{
     margin-top:5px;
 }
 .style2{
-    border:0px solid rgb(255,0,0);
     width:20px;
     height:30px;
     font-weight:600;
@@ -735,7 +681,6 @@ body{
     margin-top:14px;
 }
 #last22{
-    border:0px solid rgb(255,0,0);
     width:848px;
     height:22px;
     margin:auto;
@@ -744,7 +689,6 @@ body{
     list-style:none;
 }
 .style3{
-    border:0px solid rgb(255,0,0);
     font-family:仿体;
     font-size:13px;
     color:rgb(102,102,102);
@@ -753,7 +697,6 @@ body{
     text-align:center;
 }
 .style4{
-    border:0px solid rgb(255,0,0);
     width:20px;
     height:22px;
     font-weight:600;
@@ -764,7 +707,6 @@ body{
 }
 
 #last23{
-    border:0px solid rgb(255,0,0);
     width:923px;
     height:28px;
     margin:auto;
@@ -773,7 +715,6 @@ body{
     list-style:none;
 }
 #last24{
-    border:0px solid rgb(255,0,0);
     width:537px;
     height:28px;
     margin:auto;
@@ -783,7 +724,6 @@ body{
 }
 
 #last25{
-    border:0px solid rgb(255,0,0);
     width:206px;
     height:28px;
     margin:auto;
@@ -792,7 +732,6 @@ body{
     list-style:none;
 }
 #lastImg{
-    border:0px solid rgb(255,0,0);
     width:810px;
     height:40px;
     margin:auto;
@@ -810,20 +749,14 @@ body {
     font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
     color: #333;
     background-color: #fff;
-    min-width: 1226px;
+    min-width: 100%;
+}
+.sep {
+    display: inline-block;
+    width: 2px;
+    margin: 0px;
+    padding: 0px;
+    color: #424242;
 }
 
-base.min.css?v20181019b:1
-body {
-    margin: 0;
-}
-user agent stylesheet
-body {
-    margin: 8px;
-}
-Inherited from html
-base.min.css?v20181019b:1
-html, button, input, select, textarea {
-    font-family: sans-serif;
-}
 
