@@ -1,92 +1,74 @@
 @charset "utf-8";
 /* CSS Document */
-body{
+*{
     margin:0px;
     padding:0px;
     font-size:12px;
 }
 #subNav{
-  width: 100%;
-  margin: 0 auto;
+    border:0px solid rgb(255,0,0);
+    width:100%;
+    height:30px;
+    background:url(../imgs/bg_01.jpg);
 }
 #subNav #subNavCon{
-    width:100%;
-    height:40px; 
+    border:0px solid rgb(255,0,0);
+    width:1450px;
+    height:30px;
     margin:0px auto;
-    position: relative;
-    z-index: 30;
-    height: 40px;
-    font-size: 12px;
 }
 #subNav #subNavCon #subNavConLeft{
-    height: 40px;
-    width:60%; 
+    border:0px solid rgb(255,0,0);
+    width:80px; 
     float:left;
-    font-size:12px;
+    font-size:16px;
     text-align:center;
-    line-height:40px;
-    color: #b0b0b0;
+    line-height:30px;
+    color:rgb(102,102,102);
 }
 #subNav #subNavCon #subNavConRight{
-    height: 40px;
-    width:40%;
-    float:right;
-    text-align:center;    
+    border:0px solid rgb(255,0,0);
+    width:910px;
+    float:right;    
 }
-#subNavConLeft ul{
-    display: inline-block;
-    margin: 0 .5em;
-    padding: 0px;
-}    
-#subNavConLeft ul li{
-    line-height: 40px;
+#subNavConRight ul{
     list-style:none;
-    width: 55px;
-    float: left;
-    display: inline-block;
-    margin: 0px;
-    height: 40px;
-    font-size: 12px;
-    padding: 0px;
 }
 #subNavConRight ul li{
-    display: inline-block;
-    margin:0;
-    list-style:none;
-    width: 60px;
-    margin-right: 0px;
-    height: 40px;
-}
-#subNavConRight ul li{
-    font-size:12px;
-    color: #b0b0b0;
-    line-height:40px;
-    float:right;
-    display: inline-block;
-    padding: 0px;
-    margin: auto 0px;
+    border:0px solid rgb(255,0,0);
+    font-size:14px;
+    color:rgb(102,102,102);
+    line-height:30px;
+    float:left;
+    text-align:center;
 }
 #sncTxt{
+    color:rgb(255,0,0);
     font-size:14px;
     text-decoration:none;
 }
-.sncTxtOne{
-    width:80px;
-    margin: auto 5px auto 0px;
-    font-size: 12px;
+#sncTxtOne{
+    width:170px;
 }
-sncTxtfTxt{
-    margin: auto 5px;
-    padding: 0px;
-    font-size: 14px;
-    width: 40px;
+.sncTxtImg img{     /*图片转换为块元素*/
+    display:block;
+}
+.sncTxtImg{
+    width:1px;
+    line-height:30px;
+    margin-top:8px;
+}
+.sncTxtfTxt{
+    width:90px;
 }
 #logo{
+    border:0px solid rgb(255,0,0);
     height:115px;
     width:1450px;
     margin:auto;
 }
 .logoCon{
+    border:0px solid rgb(255,0,0);
     height:115px;
 }
 #logoImg{
@@ -103,6 +85,7 @@ sncTxtfTxt{
     position:relative;
 }
 #logoSeaIn{
+    border:2px solid rgb(255,0,0);
     height:40px;
     width:580px;
     margin-top:30px;
@@ -118,6 +101,7 @@ sncTxtfTxt{
     float:left;
 }
 #logoSeaTxt{
+    border:0px solid rgb(255,0,0);
     margin-top:5px;
     font-size:16px;
 }
@@ -127,12 +111,14 @@ sncTxtfTxt{
     margin-left:10px;
 }
 #logoCarCon{
+    border:1px solid rgb(204,204,204);
     width:200px;
     height:40px;
     margin:30px auto;
     background:rgb(239,239,239);
 }
 #logoCarConImg{
+    border:0px solid rgb(255,0,0);
     width:21px;
     height:17px;
     float:left;
@@ -140,6 +126,7 @@ sncTxtfTxt{
     margin-left:20px;
 }
 #logoCarConTxt{
+    border:0px solid rgb(255,0,0);
     width:100px;
     height:17px;
     font-size:14px;
@@ -156,15 +143,18 @@ sncTxtfTxt{
     top:25px;
 }
 #mainNav{
+    border-bottom:2px solid #DD0631;
     height:55px;    
 }
 #mainNavCen{
+    border:0px solid #ff0000;
     width:1450px;
     height:55px;
     margin:0px auto;
     position:relative;
 }
 #mainNavCenLeft{
+    border:0px solid #ff0000;
     height:55px;
     width:263px;
     float:left;
@@ -173,6 +163,7 @@ sncTxtfTxt{
     top:0px;
 }
 #mainNavCenMid{
+    border:0px solid #ff0000;
     height:55px;
     width:820px;
     position:absolute;
@@ -180,6 +171,7 @@ sncTxtfTxt{
     top:0px;
 }
 #mainNavCenRight{
+    border:0px solid #ff0000;
     height:55px;
     width:200px;
     float:right;
@@ -187,8 +179,8 @@ sncTxtfTxt{
 #mainNavCenMid ul{
     list-style:none;
 }
-
 .mncmTh{
+    border:0px solid #ff0000;
     font-size:22px;
     font-weight:300;/*加粗*/  
     width:95px;
@@ -197,6 +189,7 @@ sncTxtfTxt{
     float:left;
 }
 .mncmT{
+    border:0px solid rgb(255,0,0);
     font-size:22px;
     font-weight:300;
     width:85px;
@@ -205,17 +198,20 @@ sncTxtfTxt{
     float:left;
 }
 #mainOne{
+    border:0px solid rgb(255,0,0);
     width:1450px;
     margin:0px auto;
     height:584px;
 }
 #mainOneLeft{
+    border:0px solid rgb(255,0,0);
     height:584px;
     width:263px;
     float:left;
     background-color:rgb(164,0,37);
 }
 #mainOneCen{
+    border:0px solid rgb(255,0,0);
     height:574px;
     width:840px;
     float:left;
@@ -223,6 +219,7 @@ sncTxtfTxt{
     margin-top:10px;
 }
 #mainOneRight{
+    border:1px solid rgb(201,204,205);
     height:574px;
     width:314px;
     float:left;
@@ -230,6 +227,7 @@ sncTxtfTxt{
     margin-top:10px;
 }
 .mainOneLeftTxt{
+    border:0px solid rgb(0,255,0);
     width:220px;
     float:left;
     color:rgb(255,255,255);
@@ -240,6 +238,7 @@ sncTxtfTxt{
     padding-left:10px;
 }
 .mainOneLeftFlag{
+    border:0px solid rgb(0,255,0);
     width:20px;
     text-align:center;
     float:right;
@@ -254,6 +253,7 @@ sncTxtfTxt{
     height:60px;
 }
 .morTxtLeft{
+    border:0px solid rgb(255,0,0);
     font-size:24px;
     color:rgb(153,153,153);
     width:100px;
@@ -262,6 +262,7 @@ sncTxtfTxt{
     margin-left:20px;
 }
 #morTxtRight{
+    border:0px solid rgb(255,0,0);
     font-size:16px;
     color:rgb(153,153,153);
     width:70px;
@@ -273,6 +274,7 @@ sncTxtfTxt{
     height:160px;
 }
 .mortdTxt{
+    border:0px solid rgb(255,0,0);
     width:280px;
     margin:auto;
     font-size:16px;
@@ -294,11 +296,13 @@ sncTxtfTxt{
     float:left;
 }
 .flag02{
+    border:0px solid rgb(255,0,0);
     width:29px;
     height:30px;
     margin:auto;
 }
 .flag02Txt{
+    border:0px solid rgb(255,0,0);
     font-size:16px;
     color:rgb(153,153,153);
     margin-top:10px;
@@ -311,6 +315,7 @@ sncTxtfTxt{
     height:197px;
 }
 #advs1{
+    border:0px solid rgb(255,0,0);
     width:263px;
     height:197px;
     float:left;
@@ -333,6 +338,7 @@ sncTxtfTxt{
     float:left;
 }
 #loves{
+    border:0px solid rgb(255,0,0);
     width:1450px;
     height:314px;
     margin:20px auto;
@@ -342,18 +348,21 @@ sncTxtfTxt{
     height:40px;
 }
 #lovesTxt{
+    border:0px solid rgb(255,0,0);
     font-size:28px;
     line-height:40px;
     width:120px;
     float:left;
 }
 #lovesImg{
+    border:0px solid rgb(255,0,0);
     width:244px;
     height:30px;
     float:left;
     margin-top:10px;
 }
 #lovesImg1{
+    border:0px solid rgb(255,0,0);
     width:23px;
     height:33px;
     float:right;
@@ -361,6 +370,7 @@ sncTxtfTxt{
     margin-right:5px;
 }
 #lovesTxt1{
+    border:0px solid rgb(255,0,0);
     font-size:16px;
     line-height:40px;
     width:55px;
@@ -372,16 +382,19 @@ sncTxtfTxt{
     clear:both;
 }
 .loveKone{
+    border:0px solid rgb(255,0,0);
     height:270px;
     width:250px;
     float:left;
 }
 .loveKoneImg{
+    border:0px solid rgb(255,0,0);
     width:200px;
     height:180px;
     margin:auto;
 }
 .loveKoneM{
+    border:0px solid rgb(255,0,0);
     font-size:18px;
     line-height:30px;
     width:90px;
@@ -395,11 +408,13 @@ sncTxtfTxt{
     margin-top:180px;
 }
 #jdStyle{
+    border:0px solid rgb(255,0,0);
     width:1450px;
     height:560px;
     margin:auto;
 }
 #jdStyleText{
+    border:0px solid rgb(255,0,0);
     font-size:30px;
     height:52px;
     width:150px;
@@ -426,6 +441,7 @@ sncTxtfTxt{
     float:left;
 }
 #sOneCon12{
+    border:0px solid rgb(255,0,0);
     width:188px;
     height:248px;
     float:left;
@@ -436,11 +452,13 @@ sncTxtfTxt{
     height:250px;
 }
 #sOneCon3{
+    border:0px solid rgb(255,0,0);
     width:440px;
     height:250px;
     float:left;
 }
 #soc3Img{
+    border:0px solid rgb(255,0,0);
     width:343px;
     height:76px;
     margin:auto;
@@ -478,6 +496,7 @@ sncTxtfTxt{
     margin-top:6px;
     float:left;}
 .soc3txt{
+    border:0px solid rgb(255,0,0);
     font-size:16px;
     height:36px;
     line-height:36px;
@@ -503,6 +522,7 @@ sncTxtfTxt{
     float:left;
 }
 #head2{
+    border:0px solid rgb(255,0,0);
     width:820px;
     height:30px;
     margin-top:10px;
@@ -512,6 +532,7 @@ sncTxtfTxt{
     list-style:none;
 }
 #head2 ul li{
+    border:0px solid rgb(255,0,0);
     font-size:14px;
     color:rgb(102,102,102);
     line-height:30px;
@@ -592,11 +613,13 @@ sncTxtfTxt{
     background-color:rgb(219,219,219);
 }
 .one{
+    border:0px solid rgb(255,0,0);
     width:222px;
     height:250px;
     float:left;
 }
 .one1{
+    border:0px solid rgb(255,0,0);
     font-size:18px;
     font-family:宋体;
     font-weight:700;
@@ -607,6 +630,7 @@ sncTxtfTxt{
     margin-left:10px;
 }
 .one2{
+    border:0px solid rgb(255,0,0);
     font-size:13px;
     width:222px;
     height:28px;
@@ -620,6 +644,7 @@ sncTxtfTxt{
     float:left;
 }
 #two1{
+    border:0px solid rgb(255,0,0);
     width:340px;
     height:40px;
     font-size:18px;
@@ -630,6 +655,7 @@ sncTxtfTxt{
     text-align:center;
 }
 #two2{
+    border:0px solid rgb(255,0,0);
     font-size:13px;
     width:190px;
     height:60px;
@@ -637,6 +663,7 @@ sncTxtfTxt{
     margin:auto;
 }
 #two3{
+    border:0px solid rgb(255,0,0);
     width:65px;
     height:20px;
     margin-left:210px;
@@ -649,6 +676,7 @@ sncTxtfTxt{
     background-color:rgb(219,219,219);
 }
 #last21{
+    border:0px solid rgb(255,0,0);
     width:1054px;
     height:35px;
     margin:auto;
@@ -658,6 +686,7 @@ sncTxtfTxt{
     list-style:none;
 }
 .style1{
+    border:0px solid rgb(255,0,0);
     font-family:仿体;
     font-size:13px;
     color:rgb(102,102,102);
@@ -668,6 +697,7 @@ sncTxtfTxt{
     margin-top:5px;
 }
 .style2{
+    border:0px solid rgb(255,0,0);
     width:20px;
     height:30px;
     font-weight:600;
@@ -677,6 +707,7 @@ sncTxtfTxt{
     margin-top:14px;
 }
 #last22{
+    border:0px solid rgb(255,0,0);
     width:848px;
     height:22px;
     margin:auto;
@@ -685,6 +716,7 @@ sncTxtfTxt{
     list-style:none;
 }
 .style3{
+    border:0px solid rgb(255,0,0);
     font-family:仿体;
     font-size:13px;
     color:rgb(102,102,102);
@@ -693,6 +725,7 @@ sncTxtfTxt{
     text-align:center;
 }
 .style4{
+    border:0px solid rgb(255,0,0);
     width:20px;
     height:22px;
     font-weight:600;
@@ -703,6 +736,7 @@ sncTxtfTxt{
 }
 
 #last23{
+    border:0px solid rgb(255,0,0);
     width:923px;
     height:28px;
     margin:auto;
@@ -711,6 +745,7 @@ sncTxtfTxt{
     list-style:none;
 }
 #last24{
+    border:0px solid rgb(255,0,0);
     width:537px;
     height:28px;
     margin:auto;
@@ -720,6 +755,7 @@ sncTxtfTxt{
 }
 
 #last25{
+    border:0px solid rgb(255,0,0);
     width:206px;
     height:28px;
     margin:auto;
@@ -728,31 +764,9 @@ sncTxtfTxt{
     list-style:none;
 }
 #lastImg{
+    border:0px solid rgb(255,0,0);
     width:810px;
     height:40px;
     margin:auto;
     margin-top:12px;
 }
-#subNavCon{
-    background: #333333
-}
-#mainNavCen {
-    position: relative;
-    z-index: 20;
-    height: 100px;
-}
-body {
-    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
-    color: #333;
-    background-color: #fff;
-    min-width: 100%;
-}
-.sep {
-    display: block;
-    width: 1px;
-    margin: 0px;
-    padding: 0px;
-    color: #424242;
-}
-
-
