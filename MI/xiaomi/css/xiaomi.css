@@ -216,10 +216,10 @@ img{border:0;}
 .search_info .rightfix{
     color: #b0b0b0;
 }
-/*轮播图play*/
+/*轮播图*/
 .play{
             margin:0 auto;
-            width:1170px;
+            width:1226px;
             height:460px;
             position:relative;
             }
@@ -229,7 +229,7 @@ img{border:0;}
             padding:0;
             }
 .play img{
-            width:1170px;
+            width:1226px;
             height:460px;
             display:block;
             }
@@ -294,14 +294,16 @@ img{border:0;}
                 z-index:12;
                 top:0;
                 left:0;
+                height: 460px;
                 }
 .site-category ul{
-                margin: 0;
-                padding: 0;
+                margin: 20px auto;
+                margin-left: 12px;
+                padding: 0px 0px;
                   }
 .site-category li{
-                height:46px;
-                line-height:46px;
+                height:42px;
+                line-height:42px;
                 color:#fff;
                 cursor: pointer;
                 }
@@ -321,15 +323,16 @@ img{border:0;}
         }
 /*<!-- 轮播图下方一排小图 -->*/
 .home-service-list{
-        width:1170px;
+        width:1226px;
         height:170px;
         margin:0 auto;
-        margin-top:12px;
+        margin-top:14px;
         }
 .iconfont-list{
         width:234px;
         background:#5f5750;
         float:left;
+        margin-left: 0px;
         height: 170px;
         }
 .iconfont-list ul{
@@ -362,23 +365,31 @@ img{border:0;}
         margin-bottom: 4px;
         }
 .img1List{
-        width:936px;
+        width:986px;
         float:left;
+        margin-left: 6px;
         }
 .img1_ul{
         margin:0;
         padding:0;
         }
 .img1_ul img{
-        width:300px;
+        width:315px;
         height:170px;
         }
 .img1_ul li{
         float:left;
-        width:300px;
+        width:314.5px;
         height:170px;
-        margin-left: 12px;
+        margin-left: 14px;
         }
+.firstImg{
+         margin:0px;
+         padding: 0px;
+}
+.threeImg{
+        margin-right: 0px;
+}
 /*小米闪购*/
 .xiaomiShanGou{
         width:1170px;
