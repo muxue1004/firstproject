@@ -322,6 +322,12 @@ img{border:0;}
         margin-left:20px;
         }
 /*<!-- 轮播图下方一排小图 -->*/
+.under{
+        margin-top: -10px;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+}
 .home-service-list{
         width:1226px;
         height:170px;
@@ -352,6 +358,7 @@ img{border:0;}
         display:block;
         color:rgba(255,255,255,0.7);
         padding-top: 18px;
+        text-decoration: none;
         }
 .channel-list a:hover{
         text-decoration:none;
@@ -365,21 +372,21 @@ img{border:0;}
         margin-bottom: 4px;
         }
 .img1List{
-        width:986px;
+        width:992px;
         float:left;
-        margin-left: 6px;
+        margin-left: 0px;
         }
 .img1_ul{
         margin:0;
         padding:0;
         }
 .img1_ul img{
-        width:315px;
+        width:316px;
         height:170px;
         }
 .img1_ul li{
         float:left;
-        width:314.5px;
+        width:316.5px;
         height:170px;
         margin-left: 14px;
         }
@@ -387,27 +394,41 @@ img{border:0;}
          margin:0px;
          padding: 0px;
 }
+
+.secondImg {
+        margin-left: 15px;
+}
+
 .threeImg{
+        margin-left: 15px;
         margin-right: 0px;
 }
 /*小米闪购*/
 .xiaomiShanGou{
-        width:1170px;
-        margin:0 auto;
+        width:1224px;
+        margin:0px auto;
         margin-top: 12px;
         cursor: pointer;
         }
+.shangouHead{
+        margin-bottom: 0px;
+}
 .shangouTitle .title{
         font-size:22px;
         margin: 0;
-        margin-top: 0px;
+        margin-top: 30px;
         color: #333;
         line-height: 58px;
-        float: left;
+        font-weight: 1em;
+        width: 200px;
         }
 .shangouTitle{
         height:58px;
         }
+.box{
+        color: white;
+        font-size: 20px;
+}
 .more ul{
         float:right;
         margin: 12px 0px;
@@ -423,12 +444,14 @@ img{border:0;}
         color:#ff6700;
         }
 .shangouContent{
-        width:1170px;
+        margin: 0px;
+        width:1224px;
         overflow: hidden;
         }
 .shangouContent .goodsList{
         height:340px;
         overflow: hidden;
+        width: 1224px;
         }
 .shangouContent .goodsList .goodsList-ul{
         float:left;
@@ -512,22 +535,7 @@ img{border:0;}
 .goodsList .miaoshaGoods .goods5Info{
         border-top-color: #e53935;
         float:left;
-        }
-.goodsList .miaoshaGoods .goods6Info{
-        border-top-color: #00c0a5;
-        float:left;
-        }
-.goodsList .miaoshaGoods .goods7Info{
-        border-top-color: #ffac13;
-        float:left;
-        }
-.goodsList .miaoshaGoods .goods8Info{
-        border-top-color: #83c44e;
-        float:left;
-        }
-.goodsList .miaoshaGoods .goods9Info{
-        border-top-color: #2196f3;
-        float:left;
+        margin-right: 0px;
         }
 .miaoshaGoods-ul li .bg{
         background:rgba(0,0,0,0.02);
@@ -550,7 +558,7 @@ img{border:0;}
     background:#83c44e;
     }
 .goodsPic img{
-        width:150px;
+        width:220px;
         height:150px;
         margin-bottom:25px;
         margin-top: 15px;
