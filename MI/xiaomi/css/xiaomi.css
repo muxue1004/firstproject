@@ -32,13 +32,13 @@ img{border:0;}
 .top-21 a:hover{
                 color:#ffffff;
                 text-decoration:none;
+                cursor:pointer;
                 }
 /*cursor是光标*/                
 .Container{
           width:1226px;
           margin:0 auto;
           padding:0;
-          cursor:pointer;
           }
 .span{
         color:#424242;
@@ -62,6 +62,7 @@ img{border:0;}
                 }
 .shoppingcart:hover{color:#ff6700;
                     background: white;
+                    cursor:pointer;
                     }
 
 /*头部nav样式*/
@@ -298,7 +299,6 @@ img{border:0;}
                 }
 .site-category ul{
                 margin: 20px auto;
-                margin-left: 12px;
                 padding: 0px 0px;
                   }
 .site-category li{
@@ -306,6 +306,7 @@ img{border:0;}
                 line-height:42px;
                 color:#fff;
                 cursor: pointer;
+                padding-left: 15px;
                 }
 .site-category li:hover{
                         background:#ff6700;
@@ -408,41 +409,31 @@ img{border:0;}
         width:1224px;
         margin:0px auto;
         margin-top: 12px;
-        cursor: pointer;
         }
 .shangouHead{
         margin-bottom: 0px;
 }
 .shangouTitle .title{
-        font-size:22px;
         margin: 0;
-        margin-top: 30px;
-        color: #333;
+        font-size: 22px;
+        font-weight: 200;
         line-height: 58px;
-        font-weight: 1em;
-        width: 200px;
+        color: #333;
+        margin-top: 30px;
         }
 .shangouTitle{
         height:58px;
         }
+.MORE{
+        float: right;
+        display: inline-block;
+        margin-right: 0px;
+        margin-top: 22px;
+}
 .box{
         color: white;
         font-size: 20px;
 }
-.more ul{
-        float:right;
-        margin: 12px 0px;
-        }
-.more ul li a span{
-        width:24px;
-        padding: 0px 3px;
-        font-size: 16px;
-        line-height: 16px;
-        color: #e0e0e0;
-        }
-.more ul li a span:hover{
-        color:#ff6700;
-        }
 .shangouContent{
         margin: 0px;
         width:1224px;
@@ -462,12 +453,17 @@ img{border:0;}
         margin: 0;
         padding: 0;
         text-align: center;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
         }
 .shangouContent .goodsList li{
         height: 340px;
         border-top-style: solid;
         border-top-width: 1px;
-        width: 220px;
+        width: 231px;
         background: #fafafa;
         }
 .shangouContent .goodsList li:hover{
@@ -583,13 +579,17 @@ img{border:0;}
         }
 /*插入广告图*/
 .ad1{
-    margin: 0 auto;
-    width: 1170px;
+    margin: 0PX auto;
+    width: 1224px;
     }
 .ad1 img{
-    width:1170px;
+    width:1224px;
     margin: 20px auto;
     }
+.ad1 a{
+        width:1224px;
+        margin: 20px auto; 
+}
 /*手机*/
 .phone{
         height:1645px;
@@ -624,6 +624,7 @@ img{border:0;}
         }
 .phone .phoneTitle .title{
         font-size: 22px;
+        font-weight: 200;
         margin: 0;
         margin-top: 0px;
         margin-top: 0px;
