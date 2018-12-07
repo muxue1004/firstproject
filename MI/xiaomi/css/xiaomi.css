@@ -32,6 +32,8 @@ img{border:0;}
 .top-21 a:hover{
                 color:#ffffff;
                 text-decoration:none;
+                margin: 0px auto;
+                width: 1224px;
                 cursor:pointer;
                 }
 /*cursor是光标*/                
@@ -47,7 +49,8 @@ img{border:0;}
       }
 .shoppingcart{
               width:120px;
-              margin-left:25px;
+              margin-left:20px;
+              padding-left: 10px;
               float:right;
               color:#b0b0b0;
               background:#424242;
@@ -93,6 +96,7 @@ img{border:0;}
 .leftnav a:hover{
         color:#ff6700;
         text-decoration:none;
+        cursor:pointer;
         }
 .INTER{
         float: right;
@@ -114,6 +118,7 @@ img{border:0;}
 .INTER a:hover{
         color:#ff6700;
         text-decoration:none;
+        cursor:pointer;
         }
 .rightnav{
         float:right;
@@ -162,6 +167,7 @@ img{border:0;}
 .rightnav .SearchBtn:hover{
             background:#ff6700;
             color:#e3e3e3;
+            cursor:pointer;
             }
 
 .hotword    {position: absolute;
@@ -186,6 +192,7 @@ img{border:0;}
             text-decoration:none;
             background: #ff6700;
             color: #fff;
+            cursor:pointer;
             }
 .lunbo{
         height:460px;
@@ -280,6 +287,7 @@ img{border:0;}
             }
 .slide:hover {
             opacity: 1;
+            cursor:pointer;
             }
 .slide-left{
             left:234px;
@@ -310,6 +318,7 @@ img{border:0;}
                 }
 .site-category li:hover{
                         background:#ff6700;
+                        cursor:pointer;
                        }
 .site-category-list{
                 float:left;
@@ -364,6 +373,7 @@ img{border:0;}
 .channel-list a:hover{
         text-decoration:none;
         color:#fff;
+        cursor:pointer;
         }
 .channel-list span{
         display:block;
@@ -468,6 +478,7 @@ img{border:0;}
         }
 .shangouContent .goodsList li:hover{
     transform:translate(0,-4px);
+    cursor:pointer;
     }
 .shangouContent .goodsList-ul li{
         background: #f1eded;
@@ -554,7 +565,6 @@ img{border:0;}
     background:#83c44e;
     }
 .goodsPic img{
-        width:220px;
         height:150px;
         margin-bottom:25px;
         margin-top: 15px;
@@ -566,10 +576,14 @@ img{border:0;}
         margin: 0px 20px 3px;
         }
 .goodsinfo{
-        color:#b0b0b0;
+        margin: 0 10px 10px;
         height: 18px;
-        font-size:12px;
-        margin: 0px 20px 12px;
+        font-size: 12px;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #b0b0b0;
         }
 .goodsprice{
         color:#ff6709;
@@ -579,7 +593,7 @@ img{border:0;}
         }
 /*插入广告图*/
 .ad1{
-    margin: 0PX auto;
+    margin: 20PX auto;
     width: 1224px;
     }
 .ad1 img{
@@ -598,6 +612,7 @@ img{border:0;}
 .phone .phoneHead{
         height:58px;
         line-height: 58px;
+        padding-top: 20PX;
         }
 .phone .phoneHead .more a{
         color:#424242;
@@ -607,6 +622,7 @@ img{border:0;}
 .phone .phoneHead .more a:hover{
         color:#ff6700;
         text-decoration:none;
+        cursor:pointer;
         }
 .phone .phoneHead .more a:hover .fonticon{
         background:#ff6700;
@@ -620,7 +636,7 @@ img{border:0;}
         border-radius: 50%;
         color: #fff;
         padding: 0 5px;
-        ine-height: 20px;
+        line-height: 20px;
         }
 .phone .phoneTitle .title{
         font-size: 22px;
@@ -645,11 +661,12 @@ img{border:0;}
         padding: 0;
         }
 .phone .phoneGoods{
-        width:936px;
+        width:978px;
         }
 .phone .phoneGoods .phoneGoods-ul{
         overflow:hidden;
         padding: 0;
+        margin-top: 0px;
         display:block;
         }
 .phone .phoneGoods .phoneGoods-ul li{
@@ -657,6 +674,7 @@ img{border:0;}
         height: 300px;
         text-align:center;
         margin-left: 14px;
+        width: 230px;
         }
 .phone .phoneGoods .phoneGoods-ul li:hover{
     transform:translate(0,-4px);
@@ -665,6 +683,15 @@ img{border:0;}
         margin-bottom: 14px;
         }
 /*家电*/
+.ad2{
+        padding: 0px;
+        margin: 20px auto;
+        width: 1224px;
+}
+.ad2 img{
+        margin: 0px auto;
+        width: 1224px;
+}
 .JiaDian .Other li{
         color:#424242;
         display:inline-block;
@@ -675,6 +702,7 @@ img{border:0;}
 .JiaDian .Other li:hover{
         color:#ff6700;
         border-bottom:2px solid #ff6700;
+        cursor:pointer;
         }
 .JiaDian .JiaDianHead{
         height:58px;
@@ -704,13 +732,13 @@ img{border:0;}
         background: #fff;
         margin-left: 12px;
         text-align: center;
-        padding: 0 0 14px 14px;
+        padding: 0 0 14px 0px;
         }
 .JiaDianGoods li:hover{
         transform:translate(0,-4px);
         }
 .JiaDian .JiaDianGoods .rightgoods{
-        width:936px;
+        width:988px;
         overflow: hidden;
         height: 614px;
         }
@@ -793,6 +821,7 @@ img{border:0;}
 .footer a:hover{
         text-decoration: none;
         color:#ff6700;
+        cursor:pointer;
         }
 .footer-link .col-links{
             float:left;
@@ -862,6 +891,7 @@ img{border:0;}
 .home-right-bar li:hover{
         color:#FFFFFF;
         background-color:#ff6700;
+        cursor:pointer;
         }
 .home-right-bar img{
         width:30px;
