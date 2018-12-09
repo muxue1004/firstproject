@@ -890,6 +890,7 @@ h4{
         }
 .footer a{
         color:#757575;
+        text-decoration:none;
         }
 .footer a:hover{
         text-decoration: none;
@@ -953,7 +954,7 @@ h4{
         text-decoration:none
         }
 .home-right-bar a:hover{
-        text-decoration: none;;
+        text-decoration: none;
         }
 .home-right-bar li{
         height:70px;
@@ -1065,4 +1066,68 @@ h4{
 .site-info .info-text a{
         text-decoration:none;
         color: #b0b0b0;
+}
+.topbar-cart{
+        margin-left: 25px;
+	width: 120px;
+	float: right;
+	font: normal 12px/40px 'Arial';
+	background-color: #424242;
+	position: relative;
+        height: 40px;
+}
+ 
+.topbar-cart:hover{
+        background-color: #fff;
+}
+ 
+.topbar-cart a{
+	display: inline-block;
+	line-height: 38px;
+        color: #b0b0b0;
+        text-decoration:none;
+        width: 120px;
+        margin-top: -10px;
+}
+ 
+.topbar-cart:hover a{
+        color: #ff6700;
+        cursor:pointer;
+        margin-top: -10px;
+}
+.topbar-cart i{
+	font-size: 20px;
+	margin: 0;
+}
+ 
+.topbar-cart-menu{
+	width: 316px;
+	position: absolute;
+	top: 40px;
+	right: 0;
+        z-index: 3;
+}
+ 
+.topbar-cart-txt{
+	background-color:#fff;
+	text-align: center;
+	line-height: 100px;
+	box-shadow: 0 3px 5px -3px rgba(0,0,0,0.7);
+	height: 0;
+	overflow: hidden;
+	transition: .1s;
+}
+ 
+.topbar-cart:hover .topbar-cart-txt{
+	height: 100px;
+}
+.right-DXJ .topbar-cart img{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+}
+.GWC-21{
+    display: inline-block;
+    margin-top: -10px;
+    margin: auto 22px auto 0px;
 }
