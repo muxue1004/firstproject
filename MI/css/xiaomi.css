@@ -690,6 +690,7 @@ img{border:0;}
 .phone .phoneGoods .phoneGoods-ul li:hover{
     transform:translate(0,-4px);
     box-shadow:3px 7px 20px #ccc;
+    cursor:pointer;
     }
 .phoneInfo{
         margin-bottom: 14px;
