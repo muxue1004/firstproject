@@ -268,8 +268,11 @@ img{border:0;}
             cursor: pointer;
             }
 .play-list span.current{
-            background:red;
+            background: #ff6709;
             }
+.play-list span:hover{
+        background: #ff6709;
+}
 .slide{     position:absolute;
             color:#fff;
             background:rgba(0,0,0,.6);
@@ -493,6 +496,7 @@ img{border:0;}
         margin-left:17px;
         background: #fff;
         position: relative;
+        background: #fafafa;
         }
 .goodsList .goodsList-ul .goods1Info{
         border-top-color: #e53935;
