@@ -168,6 +168,7 @@ img{border:0;}
             background:#ff6700;
             color:#e3e3e3;
             cursor:pointer;
+            transition: all .4s;
             }
 
 .hotword    {position: absolute;
@@ -193,6 +194,7 @@ img{border:0;}
             background: #ff6700;
             color: #fff;
             cursor:pointer;
+            transition: all .4s;
             }
 .lunbo{
         height:460px;
@@ -272,6 +274,7 @@ img{border:0;}
             }
 .play-list span:hover{
         background: #ff6709;
+        transition: all .4s;
 }
 .slide{     position:absolute;
             color:#fff;
@@ -291,6 +294,7 @@ img{border:0;}
 .slide:hover {
             opacity: 1;
             cursor:pointer;
+            transition: all .4s;
             }
 .slide-left{
             left:234px;
@@ -400,6 +404,8 @@ img{border:0;}
         }
 .img1_ul img:hover{
         box-shadow:3px 7px 20px #ccc;
+        transform: translateY(-1px) scale(1.02);
+        transition: all .4s;
 }
 .img1_ul li{
         float:left;
@@ -486,6 +492,7 @@ img{border:0;}
     transform:translate(0,-4px);
     cursor:pointer;
     box-shadow:3px 7px 20px #ccc;
+    transition: all .4s;
     }
 .shangouContent .goodsList-ul li{
         background: #f1eded;
@@ -639,9 +646,11 @@ img{border:0;}
         color:#ff6700;
         text-decoration:none;
         cursor:pointer;
+        transition: all .2s;
         }
 .phone .phoneHead .more a:hover .fonticon{
         background:#ff6700;
+        transition: all .2s;
         }
 .phone .phoneHead .more .fonticon{
         background: #b0b0b0;
@@ -671,6 +680,13 @@ img{border:0;}
         margin:0;
         padding:0;
         }
+.phone .phoneList .leftAdPic img:hover{
+        transform:translate(0,-4px);
+        box-shadow:3px 7px 20px #ccc;
+        cursor:pointer;
+        transform: translateY(-1px) scale(1.02);
+        transition: all .4s;
+}
 .phone .phoneList .leftAd-ul{
         margin: 0;
         padding: 0;
@@ -695,6 +711,8 @@ img{border:0;}
     transform:translate(0,-4px);
     box-shadow:3px 7px 20px #ccc;
     cursor:pointer;
+    transform: translateY(-1px) scale(1.02);
+    transition: all .4s;
     }
 .phoneInfo{
         margin-bottom: 14px;
@@ -721,6 +739,8 @@ img{border:0;}
         color:#ff6700;
         border-bottom:2px solid #ff6700;
         cursor:pointer;
+        text-decoration:none;
+        transition: all .2s;
         }
 .active .xinpin{
         background: #83c44e;
@@ -749,6 +769,8 @@ img{border:0;}
 .JiaDian .JiaDianGoods .leftimg:hover{
         transform:translate(0,-4px);
         box-shadow:3px 7px 20px #ccc;
+        transform: translateY(-1px) scale(1.02);
+        transition: all .4s;
         }
 .JiaDian .JiaDianGoods #leftimg1{
         margin-bottom:14px;
@@ -831,6 +853,8 @@ h3{
         transform:translate(0,-4px);
         cursor:pointer;
         box-shadow:3px 7px 20px #ccc;
+        transform: translateY(-1px) scale(1.02);
+        transition: all .4s;
         }
 .JiaDian .JiaDianGoods .rightgoods{
         width:992px;
@@ -908,6 +932,7 @@ h4{
         text-decoration: none;
         color:#ff6700;
         cursor:pointer;
+        transition: all .2s;
         }
 .footer-link .col-links{
             float:left;
@@ -967,6 +992,7 @@ h4{
         }
 .home-right-bar a:hover{
         text-decoration: none;
+        transition: all .2s;
         }
 .home-right-bar li{
         height:70px;
@@ -980,6 +1006,7 @@ h4{
         color:#FFFFFF;
         background-color:#ff6700;
         cursor:pointer;
+        transition: all .2s;
         }
 .home-right-bar img{
         width:30px;
@@ -1154,4 +1181,30 @@ width: 55px; height: 55px;
 }
 #id04{
 margin: 22px 450px; width: 300px; height: 30px;
+}
+#shangouTitle-left{
+        display: inline-block;
+        width: 24px;
+        height: 16px;
+        line-height: 16px;
+        font-size: 16px;
+        border: 1px solid #e0e0e0;
+        padding: 3px 5px;
+        text-align: center;
+        margin-right: -4px;
+}
+#shangouTitle-right{
+        display: inline-block;
+        width: 24px;
+        height: 16px;
+        line-height: 16px;
+        font-size: 16px;
+        border: 1px solid #e0e0e0;
+        padding: 3px 5px;
+        text-align: center;
+}
+.xiaomiShanGou .MORE span:hover{
+        color: #ff6709;
+        cursor:pointer;
+        transition: all .4s;
 }
