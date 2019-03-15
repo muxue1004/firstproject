@@ -97,7 +97,7 @@ img{border:0;}
         cursor:pointer;
 }
 .INTER{
-        /* float: right; */
+        float: right;
         display: inline-block;
         width: 666px;
         margin:auto 10px auto 150PX;
