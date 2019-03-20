@@ -1,0 +1,69 @@
+/* 清除默认边距 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+/* 主体 */
+body {
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+/* 版心居中 */
+.m {
+    margin: 0 auto;
+    width: 1226px;
+}
+/* a标签取消下划线 */
+a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+/* 浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul,
+ol {
+    list-style: none;
+}
+/* 文本水平居中 */
+.tac {
+    text-align: center;
+}
+i {
+    font-weight: normal;
+    font-style: normal;
+}

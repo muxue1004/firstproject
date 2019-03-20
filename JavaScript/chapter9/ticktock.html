@@ -11,6 +11,7 @@
 	}
 
 	var tick = true;
+	var t
 
 	function ticker() {
 		if (tick) {
@@ -23,12 +24,14 @@
 	}
 
 	window.onload = function() {
-		setInterval(ticker, 1000);
+		t = setInterval(ticker, 1000);
 	}
 
-  </script>
+	</script>
+	
 </head>
 <body>
 <p id="message"></p>
+<button onclick="int=window.clearInterval(t)">Stop interval</button>
 </body>
 </html>
