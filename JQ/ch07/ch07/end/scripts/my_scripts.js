@@ -91,12 +91,11 @@ $(document).ready(function(){
 		var my_random_num = Math.floor(Math.random()*num);
 		return my_random_num;
 	}
-
+3
 	function randomize(){
 		$(".face").each(function(index){
 			var target_position = parseInt( (getRandom(num_monsters) + clix[index]) % num_monsters); 
 			var current_position = clix[index] ;
-			
 			clix[index] = target_position;
 			
 			if( target_position > current_position ) {
@@ -108,7 +107,11 @@ $(document).ready(function(){
 			}else{
 				// They are the same - Don't move it.
 			}
+		console.log (target_position)
+		console.log (clix[index])
+		console.log (current_position)
+		console.log (move_to)
 		});
 	};	
-	
 });//end doc.onready function
+

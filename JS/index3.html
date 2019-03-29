@@ -11,12 +11,16 @@
         var R = ["凹凸曼" , "小怪兽" , "大大怪" , "小小怪" , "蟑螂鼠" , "哆啦A梦" , "野比大雄"];
         var T = ["早上" , "中午" , "下午" , "傍晚" , "晚上" , "深夜" , "凌晨"];
         var D = ["在地球上" , "在教学楼楼顶" , "在树上" , "在广场上" , "在地中海上" , "在月球上" , "在天上"];
-        var C = ["吃炸鸡" , "飞翔" , "跳舞" , "打炉石" , "唱歌" , "秀口技" , "打扑克"];
-        var i1 = R[Math.floor(Math.random() * R.length)];
-        var i2 = T[Math.floor(Math.random() * T.length)];
-        var i3 = D[Math.floor(Math.random() * D.length)];
-        var i4 = C[Math.floor(Math.random() * C.length)];
-        document.write (i1 + i2 + i3 +i4)
+        var C = ["吃炸鸡" , "飞翔" , "跳舞" , "打炉石" , "唱歌" , "烤蛋挞" , "打扑克"];
+        // var A1 = R[Math.floor(Math.random() * R.length)];
+        // var A2 = T[Math.floor(Math.random() * T.length)];
+        // var A3 = D[Math.floor(Math.random() * D.length)];
+        // var A4 = C[Math.floor(Math.random() * C.length)];
+        function choose (array) {
+            return array[Math.floor(Math.random() * array.length)]
+        }
+        document.write (choose(R) + choose(T) + choose(D) + choose(C))
+        // document.write (A1 + A2 + A3 + A4)
     </script>
 </body>
 </html>
