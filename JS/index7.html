@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var aaa = [78 , 80 , 67 , 84 , 90 , 97 , 83 , 67 , 97]
+        var high = 0
+        var highX = 0
+        for (var i = 0; i < aaa.length; i++) {
+            if (aaa[i] >= high){
+                high = aaa[i]
+                highX = i 
+            }
+        }
+        var n = i +1
+        for (var j = 0 ; j < n ; j++){
+            if (aaa[j] >= high){
+            console.log (high)
+            document.write (j + "<br>")
+            }
+        }
+        document.write (high + "<br>")
+    </script>
+</body>
+</html>

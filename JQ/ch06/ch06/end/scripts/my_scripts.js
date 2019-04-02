@@ -177,4 +177,5 @@ $(document).ready(function(){
 		$("#btnDeal").toggle()
 					 .trigger('click');
 	});
+	console.log (used_cards)
 });
