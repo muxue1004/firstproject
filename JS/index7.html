@@ -8,23 +8,30 @@
 </head>
 <body>
     <script>
-        var aaa = [78 , 80 , 67 , 84 , 90 , 97 , 83 , 67 , 97]
-        var high = 0
-        var highX = 0
-        for (var i = 0; i < aaa.length; i++) {
-            if (aaa[i] >= high){
-                high = aaa[i]
-                highX = i 
+        var score = [78 , 80 , 67 , 84 , 90 , 97 , 83 , 67 , 97 , 92 , 97]
+        var highest = 0
+        var suffix = []
+        var j = 0
+        for (var i = 0; i < score.length; i++) {
+            if (score[i] > highest){
+                highest = score[i]
+                suffix = []
+                j = 0
+                suffix[j] = i
+            } else if (highest == score[i]) {
+                j++
+                suffix[j] = i
             }
         }
-        var n = i +1
-        for (var j = 0 ; j < n ; j++){
-            if (aaa[j] >= high){
-            console.log (high)
-            document.write (j + "<br>")
-            }
-        }
-        document.write (high + "<br>")
+        // var n = i + 1
+        // for (var j = 0 ; j < n ; j++){
+        //     if (score[j] == highest){
+            // console.log (highest)
+        //     document.write (j + "<br>")
+            // }
+        // } 
+        for (var k = 0 ; k <suffix.length ; k++)
+        document.write (highest + "<br>" + suffix[k] + "<br>")
     </script>
 </body>
 </html>
