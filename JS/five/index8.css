@@ -1,0 +1,19 @@
+#first , #second {
+    float: left; 
+    width: 300px; 
+    height: 150px;
+    margin-right: 30px;
+    border: 1px solid #aaaaaa;
+}
+#red {
+    color: red;
+    display: block;
+}
+#green {
+    color: green;
+    display: block;
+}
+#blue {
+    color: blue;
+    display: block;
+}

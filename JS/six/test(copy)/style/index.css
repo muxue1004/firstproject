@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+}
+#div-1{
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    margin-right: calc(100% - 1200px);
+    z-index: -1;
+}
+#div-2{
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    float : right;
+}
+#well{
+    background-color: white;
+}
+#cell{
+    background-color: blue;
+}
+#can{
+    background-color: red;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

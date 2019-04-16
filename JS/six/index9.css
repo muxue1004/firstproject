@@ -1,0 +1,54 @@
+#body {
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+}
+.area {
+    width: 300px;
+    height: 200px;
+    border-style: solid;
+    display: inline-block;
+    float: left;
+}
+#area2 {
+    margin-left: 50px;
+}
+.square {
+    display: inline-block;
+}
+#square1 {
+    background-color: pink;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 5px;
+    text-align:center;
+    padding-top: 15px;
+}
+#square2 {
+    background-color: yellow;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 5px;
+    text-align:center;
+    padding-top: 15px;
+}
+#square3 {
+    background-color: forestgreen;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 5px;
+    text-align:center;
+    padding-top: 15px;
+}
+#square4 {
+    background-color: lightseagreen;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px 5px;
+    text-align:center;
+    padding-top: 15px;
+}
