@@ -44,7 +44,6 @@ $(document).ready(function(){
         sw++;
         if(sw==number.length){sw=0};
         number.eq(sw).trigger("click");
-        },2000);
+        },3500);
             })
-    
 })
